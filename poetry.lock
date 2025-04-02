@@ -208,14 +208,14 @@ min-versions = ["babel (==2.9.0)", "click (==7.0)", "colorama (==0.4) ; platform
 
 [[package]]
 name = "mkdocs-tacc"
-version = "0.5.3"
+version = "0.6.0"
 description = "TACC-specific MkDocs theme"
 optional = false
 python-versions = "<3.13,>=3.10"
 groups = ["main"]
 files = [
-    {file = "mkdocs_tacc-0.5.3-py3-none-any.whl", hash = "sha256:8fcab56b91dacee5ae27c9f9930f0a84d2846ae35c6a379ac6f04159ded0cc73"},
-    {file = "mkdocs_tacc-0.5.3.tar.gz", hash = "sha256:c378e68a5e628efbceebf0cf9379bae6a0d3043c06df0501da1b554c1eb8c9cd"},
+    {file = "mkdocs_tacc-0.6.0-py3-none-any.whl", hash = "sha256:d92ae7521b4f362d42defbf67005f47a9ec6037b7d170bd3694fcf9d2eec102f"},
+    {file = "mkdocs_tacc-0.6.0.tar.gz", hash = "sha256:10fc6f02e13ed553d37ddd6bcbc727516fee59beaa6660c0f943a1f26fd4c9ca"},
 ]
 
 [package.dependencies]
@@ -412,4 +412,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.10,<3.13"
-content-hash = "85c5ff33ba995f0ffbe5810b0f735116ec17d481a0b52fb4d4593e3e0425cecb"
+content-hash = "5b7d38f4a1beab8f377a7c577535b93c4580aa3f9bad8a2b91acf3915516a6a2"

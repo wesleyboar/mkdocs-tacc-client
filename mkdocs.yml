@@ -1,0 +1,45 @@
+site_name: Digital Rocks Documentation
+site_description: Digital Rocks Technical Documentation
+site_author: Digital Rocks Team
+site_url: https://digitalrocksportal.org
+repo_url: https://github.com/wesleyboar/digital-rocks-docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: tacc_readthedocs
+  # "ReadTheDocs" Theme Features
+  logo: https://cdn.jsdelivr.net/gh/TACC/Core-CMS-Custom@5717c8d/digitalrocks_assets/NSF-DigitalRocks-Logo.svg
+  analytics:
+    gtag: G-TRRRQZ0EHX
+  # "TACC" Theme Features
+  portal_url: https://digitalrocksportal.org
+  portal_name: digitalrocksportal.org
+
+extra_css:
+  - css/extra.css
+
+markdown_extensions:
+  - extra
+  - admonition
+  - toc:
+      permalink: "" # i.e. `true` but without "¶"
+      permalink_class: headerlink fa fa-link
+      permalink_title: Link to Heading
+  # PyMdown Extensions
+  - pymdownx.blocks.admonition
+  - pymdownx.blocks.details
+  - pymdownx.blocks.html
+  - pymdownx.blocks.tab
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.saneheaders
+
+nav:
+  - Digital Rocks Essentials:
+    - Documentation Overview: index.md
+    - How to Use: https://www.digitalrocksportal.org/usage/
+  - Another Category:
+    - Some Page: some-page.md
+
+plugins:
+  - search

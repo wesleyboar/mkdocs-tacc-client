@@ -1,0 +1,5 @@
+# build
+site/
+
+# os
+.DS_Store

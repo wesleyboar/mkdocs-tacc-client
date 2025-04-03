@@ -1,38 +1,20 @@
-# Digital Rocks Documentation
+# MkDocs TACC Theme Sample Documentation
 
-Welcome to the Digital Rocks documentation. This documentation provides comprehensive information about the Digital Rocks Portal, its features, and how to use them effectively.
+Welcome to this sample documentation site built with the [MkDocs TACC theme](https://tacc.github.io/mkdocs-tacc/). This documentation demonstrates the features and capabilities of that theme, which is based on the ReadTheDocs theme and customized for TACC's documentation standards.
 
-## Overview
+## About This Sample
 
-The Digital Rocks Portal is a platform for sharing, visualizing, and analyzing digital rock data. This documentation will help you understand:
+This documentation serves as a starting point for your own documentation project. Please:
 
-- How to use the portal effectively
-- Available features and capabilities
-- Best practices for data sharing and analysis
-- Integration with other tools and platforms
-
-## Getting Started
-
-To get started with Digital Rocks:
-
-1. Visit [digitalrocksportal.org](https://digitalrocksportal.org)
-2. Create an account or sign in
-3. Explore the available datasets and tools
-4. Start sharing your own digital rock data
-
-## Documentation Structure
-
-This documentation is organized into several sections:
-
-- **Digital Rocks Essentials**: Core documentation and usage guides
-- **Advanced Topics**: Detailed information about specific features and capabilities
-- **API Reference**: Technical documentation for developers
-- **Tutorials**: Step-by-step guides for common tasks
+- Replace this content with your own documentation.
+- Customize the theme settings in `mkdocs.yml`.
+- Add your own pages and sections.
+- Modify the navigation structure.
 
 ## Need Help?
 
-If you need assistance or have questions:
+For assistance with the MkDocs TACC theme:
 
-- Check our [FAQ section](https://digitalrocksportal.org/faq)
-- Contact our support team at [support@digitalrocksportal.org](mailto:support@digitalrocksportal.org)
-- Join our community forum 
+- Visit [official documentation](https://tacc.github.io/mkdocs-tacc/).
+- Check [GitHub repository](https://github.com/TACC/mkdocs-tacc/).
+- Review [example configurations](https://tacc.github.io/mkdocs-tacc/examples/).

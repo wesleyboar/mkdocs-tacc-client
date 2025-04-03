@@ -3,9 +3,9 @@ requires = ["poetry-core>=1.5.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [project]
-name = "digital-rocks-docs"
+name = "mkdocs-tacc-client"
 version = "0.1.0"
-description = "Digital Rocks Documentation"
+description = "Client for MkDocs-TACC"
 authors = [
   { name = "TACC COA CMD", email = "coa-cmd@tacc.utexas.edu" }
 ]
@@ -20,5 +20,5 @@ dependencies = [
 ]
 
 [project.urls]
-homepage = "https://digitalrocksportal.org"
-github = "https://github.com/wesleyboar/Digital-Rocks-Docs"
+homepage = "https://TACC.github.io/mkdocs-tacc-client"
+github = "https://github.com/TACC/mkdocs-tacc-client"

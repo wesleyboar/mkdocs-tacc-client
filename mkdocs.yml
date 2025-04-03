@@ -1,19 +1,18 @@
-site_name: Digital Rocks Documentation
-site_description: Digital Rocks Technical Documentation
-site_author: Digital Rocks Team
-site_url: https://digitalrocksportal.org
-repo_url: https://github.com/wesleyboar/digital-rocks-docs
+site_name: MkDocs-TACC Client
+site_description: Client for MkDocs-TACC
+site_author: TACC COA CMD
+site_url: https://tacc.github.io/mkdocs-tacc-client
+repo_url: https://github.com/TACC/mkdocs-tacc-client
 edit_uri: edit/main/docs/
 
 theme:
   name: tacc_readthedocs
   # "ReadTheDocs" Theme Features
-  logo: https://cdn.jsdelivr.net/gh/TACC/Core-CMS-Custom@5717c8d/digitalrocks_assets/NSF-DigitalRocks-Logo.svg
-  analytics:
-    gtag: G-TRRRQZ0EHX
+  logo: img/logo.svg
   # "TACC" Theme Features
-  portal_url: https://digitalrocksportal.org
-  portal_name: digitalrocksportal.org
+  logo_svg_inject: true
+  portal_url: https://your-site.org
+  portal_name: your-site.org
 
 extra_css:
   - css/extra.css
@@ -35,9 +34,9 @@ markdown_extensions:
   - pymdownx.saneheaders
 
 nav:
-  - Digital Rocks Essentials:
-    - Documentation Overview: index.md
-    - How to Use: https://www.digitalrocksportal.org/usage/
+  - Essentials:
+    - Overview: index.md
+    - External Website: https://example.com
   - Another Category:
     - Some Page: some-page.md
 

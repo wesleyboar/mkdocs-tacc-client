@@ -1,6 +1,6 @@
-# Digital Rocks Docs
+# MkDocs-TACC Client
 
-Digital Rocks documentation for [digitalrocksportal.org](https://digitalrocksportal.org).
+Example documentation that uses [mkdocs-tacc](https://tacc.github.io/mkdocs-tacc) theme for [MkDocs](https://www.mkdocs.org/).
 
 ## Contributing
 
@@ -8,4 +8,4 @@ We welcome contributions, and offer a guide for those new to GitHub. [Read more]
 
 ## Developing
 
-We use [Poetry](https://python-poetry.org/) and [MkDocs](https://mkdocs.readthedocs.io/) and a customized theme. [Read more.](./DEVELOPING.md)
+We use [PIP](https://pip.pypa.io/) or [Poetry](https://python-poetry.org/), and [MkDocs](https://mkdocs.readthedocs.io/) with a customized theme. [Read more.](./DEVELOPING.md)
